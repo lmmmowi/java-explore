@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <artifactId>java-explore-tars</artifactId>
+        <groupId>com.lmmmowi</groupId>
+        <version>1.0</version>
+    </parent>
+
+    <artifactId>java-explore-tars-client</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.tencent.tars</groupId>
+            <artifactId>tars-client</artifactId>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.tencent.tars</groupId>
+                <artifactId>tars-maven-plugin</artifactId>
+                <version>${tars.version}</version>
+                <configuration>
+                    <tars2JavaConfig>
+                        <tarsFiles>
+                            <tarsFile>${basedir}/src/main/resources/hello.tars</tarsFile>
+                        </tarsFiles>
+                        <tarsFileCharset>UTF-8</tarsFileCharset>
+                        <servant>false</servant>
+                        <srcPath>${basedir}/src/main/java</srcPath>
+                        <charset>UTF-8</charset>
+                        <packagePrefixName>com.lmmmowi.java.explore.tars.client.</packagePrefixName>
+                    </tars2JavaConfig>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

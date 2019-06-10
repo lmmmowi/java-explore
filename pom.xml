@@ -6,6 +6,7 @@
 
     <modules>
         <module>kryo</module>
+        <module>tars</module>
     </modules>
 
     <groupId>com.lmmmowi</groupId>

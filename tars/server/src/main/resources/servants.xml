@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<servants>
+    <servant name="HelloObj">
+        <home-api>com.lmmmowi.java.explore.tars.server.test.HelloServant</home-api>
+        <home-class>com.lmmmowi.java.explore.tars.server.test.HelloServantImpl</home-class>
+    </servant>
+</servants>
