@@ -7,6 +7,8 @@
     <modules>
         <module>kryo</module>
         <module>tars</module>
+        <module>scala</module>
+        <module>netty</module>
     </modules>
 
     <groupId>com.lmmmowi</groupId>
