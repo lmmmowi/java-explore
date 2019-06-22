@@ -9,6 +9,7 @@
         <module>tars</module>
         <module>scala</module>
         <module>netty</module>
+        <module>jedis</module>
     </modules>
 
     <groupId>com.lmmmowi</groupId>
