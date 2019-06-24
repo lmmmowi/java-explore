@@ -10,6 +10,7 @@
         <module>scala</module>
         <module>netty</module>
         <module>jedis</module>
+        <module>spring</module>
     </modules>
 
     <groupId>com.lmmmowi</groupId>
