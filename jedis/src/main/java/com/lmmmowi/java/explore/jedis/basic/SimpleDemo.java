@@ -19,7 +19,7 @@ public class SimpleDemo extends AbstractDemo {
         this.keys();
     }
 
-    private void set(){
+    private void set() {
         logger.info("redis set");
         jedis.set("demokey", "demovalue");
     }
@@ -32,13 +32,13 @@ public class SimpleDemo extends AbstractDemo {
         }
     }
 
-    private void get(){
+    private void get() {
         logger.info("redis get");
         String value = jedis.get("demokey");
         System.out.println(value);
     }
 
-    private void del(){
+    private void del() {
         logger.info("redis del");
         jedis.del("demokey");
     }
