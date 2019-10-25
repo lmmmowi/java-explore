@@ -12,6 +12,7 @@
         <module>jedis</module>
         <module>spring</module>
         <module>caffeine</module>
+        <module>rabbitmq</module>
     </modules>
 
     <groupId>com.lmmmowi</groupId>
