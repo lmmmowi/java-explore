@@ -3,7 +3,7 @@ package com.lmmmowi.java.explore.jedis.qps;
 import com.lmmmowi.java.explore.jedis.common.AbstractDemo;
 
 /**
- * @Author: 11102942
+ * @Author: lmmmowi
  * @Date: 2019/7/15
  * @Description:
  */

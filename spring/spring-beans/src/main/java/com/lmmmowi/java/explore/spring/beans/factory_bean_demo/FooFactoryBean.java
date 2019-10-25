@@ -3,7 +3,7 @@ package com.lmmmowi.java.explore.spring.beans.factory_bean_demo;
 import org.springframework.beans.factory.FactoryBean;
 
 /**
- * @Author: 11102942
+ * @Author: lmmmowi
  * @Date: 2019/6/24
  * @Description:
  */
